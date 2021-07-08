@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1d1d1d;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.datecalc {
+  display: none;
+}
+
+.header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.timer_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.timer {
+  display: none;
+  height: 100px;
+  width: 308px;
+}
+
+label {
+  color: white;
+}
+
+.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.start {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#datecalc__result {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+button {
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  height: 35px;
+  width: 100px;
+}
+/*# sourceMappingURL=style.css.map */
